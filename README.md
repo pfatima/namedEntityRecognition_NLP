@@ -6,19 +6,21 @@ Named Entity Recognition (NER) Streamlit App using rule-based techniques and a p
    ```bash
    pip install streamlit spacy nltk
    ```
-   python
-   import nltk
-   nltk.download('punkt')
-   nltk.download('averaged_perceptron_tagger')
-   nltk.download('maxent_ne_chunker')
-   nltk.download('words')
+     
+   python  
+   import nltk  
+   nltk.download('punkt')  
+   nltk.download('averaged_perceptron_tagger')  
+   nltk.download('maxent_ne_chunker')  
+   nltk.download('words')  
 
-   
+      
 2. **Download the English model**:
    Download the English model from spaCy using the following command:
    ```bash
    python -m spacy download en_core_web_sm
    ```
+     
 3. **Run Streamlit app**:
    Execute the app with the command:
    ```bash
