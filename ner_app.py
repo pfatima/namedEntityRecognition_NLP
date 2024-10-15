@@ -87,11 +87,7 @@ if st.button("Analyze"):
             st.markdown(highlighted_text, unsafe_allow_html=True)
         else:
             st.write("No entities found.")
-        
-
-        
+    
     else:
         st.write("Please enter text to analyze.")
         
-    
-# implement rule based approach for named entity recognition using dataset. give me the code in python
